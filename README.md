@@ -16,18 +16,31 @@ versions if you like my fixes and improvements.
 
 # Installation
 
-Installation is very simple:
+## Using Vundle
 
-- Download the `termschool.vim` file
-- Copy it to your `~/.vim/colors` directory
-- Run vim
-- Type <ESC>`:colorscheme termschool`
+If you're using Vundle, just add the following to your `~/.vimrc` file:
 
-To make it permanent, edit our `~/.vimrc` file and add a line containing `colorscheme termschool` there.
+```VimL
+Plugin 'marcopaganini/termschool-vim-theme'
+colorscheme termschool
+```
 
-An better (but slightly more complicated) option is to git clone this repository somewhere in your disk and create a symlink from the `termschool.vim` file inside your working repository to `~/.vim/colors`.
+While still inside vim, type: `<ESC>:PluginInstall`. This should install termschool automatically. Restart vim and the new theme should be the default.
 
-Please note that this theme *requires* a 256-color capable terminal. Most popular terminals are 256-color capable these days, but if things look odd, you know why.
+## Manual installation
+
+Manual installation is very simple: Download the `termschool.vim` file and copy it into your `~/.vim/colors` directory. Edit your `~/.vimrc` file and add:
+
+```VimL
+colorscheme termschool
+```
+Restart vim and everything should work.
+
+A better (but slightly more complicated) option is to git clone this repository somewhere in your disk and create a symlink from the `termschool.vim` file inside your working repository to `~/.vim/colors`.
+
+## Caveats
+
+Please note that this theme *requires* a 256-color capable terminal. Most popular terminals are 256-color capable these days, but if things look odd, your terminal might not have this capability.
 
 If you know your terminal is 256-color capable and things still look ugly/weird, try adding the following to
 your `~/.vimrc` file right before the `colorscheme termschool` line:
@@ -38,7 +51,6 @@ set t_Co=256
 
 This will force vim to use 256 colors.
 
-Note that this has been optimized for 256 colors (I just can't match the productivity of screen + vim on gvim)
-but should work fine for GUI environments.
+Note that the theme has been tuned for 256-color terminals (I just can't match the productivity of screen + vim on gvim) but should also work fine for GUI environments.
 
 Feel free to send comments with ideas, suggestions and push requests.
