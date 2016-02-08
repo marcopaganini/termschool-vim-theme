@@ -54,3 +54,7 @@ This will force vim to use 256 colors.
 Note that the theme has been tuned for 256-color terminals (I just can't match the productivity of screen + vim on gvim) but should also work fine for GUI environments.
 
 Feel free to send comments with ideas, suggestions and push requests.
+
+## Related Links
+
+You may also want to check the [Mojave](https://github.com/marcopaganini/mojave-vim-theme) vim theme, a dark color theme based (mostly) on pastel colors that is well suited to long editing sessions.
