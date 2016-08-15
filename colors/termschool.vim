@@ -121,3 +121,6 @@ hi cssClassName ctermfg=153 ctermbg=NONE cterm=NONE guifg=#bcdbff guibg=NONE gui
 hi cssValueLength ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3c98d9 guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=151 ctermbg=NONE cterm=NONE guifg=#a7cfa3 guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi SpellBad ctermfg=0 ctermbg=224 guifg=#000000 guibg=#ffdfdf
+hi SpellCap ctermfg=0 ctermbg=81 guifg=#000000 guibg=#5fd7ff
+hi SpellRare ctermfg=0 ctermbg=225 guifg=#000000 guibg=#ffdfff
