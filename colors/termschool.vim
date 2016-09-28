@@ -124,3 +124,6 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi SpellBad ctermfg=0 ctermbg=224 guifg=#000000 guibg=#ffdfdf
 hi SpellCap ctermfg=0 ctermbg=81 guifg=#000000 guibg=#5fd7ff
 hi SpellRare ctermfg=0 ctermbg=225 guifg=#000000 guibg=#ffdfff
+hi TabLineFill ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi TabLineSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3f4b52 gui=NONE
+hi TabLine ctermfg=NONE ctermbg=233 cterm=NONE guifg=NONE guibg=#121212 gui=NONE
