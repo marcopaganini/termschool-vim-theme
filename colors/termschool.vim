@@ -124,3 +124,8 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi SpellBad ctermfg=0 ctermbg=224 guifg=#000000 guibg=#ffdfdf
 hi SpellCap ctermfg=0 ctermbg=81 guifg=#000000 guibg=#5fd7ff
 hi SpellRare ctermfg=0 ctermbg=225 guifg=#000000 guibg=#ffdfff
+hi TabLineFill ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi TabLineSel ctermfg=NONE ctermbg=23 cterm=bold guifg=NONE guibg=#005f5f gui=bold
+hi TabLine ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi SignColumn ctermfg=102 ctermbg=NONE cterm=NONE guifg=#84898c guibg=#2a343a gui=NONE
+hi FoldColumn ctermfg=102 ctermbg=NONE cterm=NONE guifg=#84898c guibg=#2a343a gui=NONE
