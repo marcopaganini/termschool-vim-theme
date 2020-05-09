@@ -132,6 +132,13 @@ hi SignColumn ctermfg=0 ctermbg=240 guifg=#000000 guibg=#585858
 hi FoldColumn ctermfg=102 ctermbg=NONE cterm=NONE guifg=#84898c guibg=#2a343a gui=NONE
 hi WildMenu ctermfg=NONE ctermbg=23 cterm=bold guifg=NONE guibg=#005f5f gui=bold
 
+" C highlighting
+hi! link cConditional   Conditional
+hi! link cRepeat        Conditional
+hi cTodo        ctermfg=113 ctermbg=NONE cterm=bold guifg=#87d75f guibg=NONE gui=bold
+hi cType        ctermfg=231 ctermbg=234  cterm=NONE guifg=#f0f0f0 guibg=NONE gui=NONE
+hi cConstant    ctermfg=231 ctermbg=234  cterm=NONE guifg=#f0f0f0 guibg=NONE gui=NONE
+
 " Markdown specific colors
 hi markdownCode ctermfg=74 ctermbg=NONE guifg=#5fafd7 guibg=NONE gui=NONE
 hi markdownH1 ctermfg=178 ctermbg=NONE cterm=bold guifg=#dfaf00 guibg=NONE gui=bold
