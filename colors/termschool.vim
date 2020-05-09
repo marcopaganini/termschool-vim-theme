@@ -19,6 +19,7 @@
 
 set background=dark
 highlight clear
+highlight clear CursorLineNr
 
 if exists("syntax_on")
   syntax reset
@@ -29,23 +30,23 @@ let g:colors_name = "termschool"
 hi Conceal ctermfg=60 ctermbg=NONE cterm=NONE guifg=#5f5f87 guibg=NONE gui=NONE
 hi Cursor ctermfg=16 ctermbg=145 cterm=NONE guifg=#182227 guibg=#9ea7a6 gui=NONE
 hi Visual ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3f4b52 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=23 cterm=NONE guifg=NONE guibg=#2e373b gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=23 cterm=NONE guifg=NONE guibg=#2e373b gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=23 cterm=NONE guifg=NONE guibg=#2e373b gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2e373b gui=NONE
+hi CursorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2e373b gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#2e373b gui=NONE
 hi LineNr ctermfg=102 ctermbg=NONE cterm=NONE guifg=#84898c guibg=#2a343a gui=NONE
-hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#5f5f5f guibg=#252c31 gui=NONE
-hi MatchParen ctermfg=180 ctermbg=NONE cterm=underline guifg=#dda790 guibg=NONE gui=underline
+hi VertSplit ctermfg=59 ctermbg=235 cterm=NONE guifg=#5f5f5f guibg=#252c31 gui=NONE
+hi MatchParen ctermfg=NONE ctermbg=245 cterm=NONE guifg=NONE guibg=#9a9a9a gui=NONE
 hi StatusLine ctermfg=231 ctermbg=59 cterm=bold guifg=#f0f0f0 guibg=#575e61 gui=bold
 hi StatusLineNC ctermfg=231 ctermbg=59 cterm=NONE guifg=#f0f0f0 guibg=#575e61 gui=NONE
 hi Pmenu ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#5f5f5f gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=23 cterm=NONE guifg=NONE guibg=#005f5f gui=NONE
-hi IncSearch ctermfg=16 ctermbg=107 cterm=NONE guifg=#182227 guibg=#8bb664 gui=NONE
-hi Search ctermfg=0 ctermbg=41 cterm=NONE guifg=#000000 guibg=#00d75f gui=NONE
+hi PmenuSel ctermfg=231 ctermbg=68 cterm=NONE guifg=#f0f0f0 guibg=#3c98d9 gui=NONE
+hi IncSearch ctermfg=15 ctermbg=107 cterm=NONE guifg=#f0f0f0 guibg=#8bb664 gui=NONE
+hi Search ctermfg=3 ctermbg=239 cterm=NONE guifg=#000000 guibg=#00d75f gui=NONE
 hi Directory ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3c98d9 guibg=NONE gui=NONE
 hi Folded ctermfg=247 ctermbg=16 cterm=NONE guifg=#9a9a9a guibg=#182227 gui=NONE
 
-hi Normal ctermfg=231 ctermbg=234 cterm=NONE guifg=#f0f0f0 guibg=#252c31 gui=NONE
-hi Boolean ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3c98d9 guibg=NONE gui=NONE
+hi Normal ctermfg=188 ctermbg=234 cterm=NONE guifg=#c5c8c6 guibg=#252c31 gui=NONE
+hi Boolean ctermfg=68 ctermbg=NONE cterm=bold guifg=#3c98d9 guibg=NONE gui=bold
 hi Character ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3c98d9 guibg=NONE gui=NONE
 hi Comment ctermfg=247 ctermbg=NONE cterm=NONE guifg=#9a9a9a guibg=NONE gui=italic
 hi Conditional ctermfg=180 ctermbg=NONE cterm=NONE guifg=#dda790 guibg=NONE gui=NONE
@@ -55,8 +56,8 @@ hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#f0f0f0 guibg=#43820d gui=bol
 hi DiffDelete ctermfg=88 ctermbg=52 cterm=NONE guifg=#880708 guibg=#5f0000 gui=NONE
 hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#f0f0f0 guibg=#1c3657 gui=NONE
 hi DiffText ctermfg=231 ctermbg=61 cterm=bold guifg=#f0f0f0 guibg=#5f5faf gui=bold
-hi ErrorMsg ctermfg=131 ctermbg=233 cterm=reverse guifg=#af5f5f guibg=#121212 gui=reverse
-hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi ErrorMsg ctermfg=131 ctermbg=231 cterm=reverse guifg=#af5f5f guibg=#f0f0f0 gui=reverse
+hi WarningMsg ctermfg=180 ctermbg=NONE cterm=NONE guifg=#dda790 guibg=NONE gui=NONE
 hi Float ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3c98d9 guibg=NONE gui=NONE
 hi Function ctermfg=153 ctermbg=NONE cterm=NONE guifg=#bcdbff guibg=NONE gui=NONE
 hi Identifier ctermfg=113 ctermbg=NONE cterm=NONE guifg=#99cf50 guibg=NONE gui=NONE
@@ -72,7 +73,7 @@ hi Statement ctermfg=180 ctermbg=NONE cterm=NONE guifg=#dda790 guibg=NONE gui=NO
 hi StorageClass ctermfg=113 ctermbg=NONE cterm=NONE guifg=#99cf50 guibg=NONE gui=NONE
 hi String ctermfg=107 ctermbg=NONE cterm=NONE guifg=#8bb664 guibg=NONE gui=NONE
 hi Tag ctermfg=153 ctermbg=NONE cterm=NONE guifg=#bcdbff guibg=NONE gui=NONE
-hi Title ctermfg=113 ctermbg=NONE cterm=bold guifg=#87d75f guibg=NONE gui=bold
+hi Title ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f0f0f0 guibg=NONE gui=NONE
 hi Todo ctermfg=247 ctermbg=NONE cterm=inverse,bold guifg=#9a9a9a guibg=NONE gui=inverse,bold,italic
 hi Type ctermfg=153 ctermbg=NONE cterm=NONE guifg=#b5d8f6 guibg=NONE gui=NONE
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
@@ -144,7 +145,6 @@ hi markdownListMarker ctermfg=75 ctermbg=NONE cterm=bold guifg=#5fafff guibg=NON
 hi markdownOrderedListMarker ctermfg=75 ctermbg=NONE cterm=bold guifg=#5fafff guibg=NONE gui=bold
 hi markdownUrl ctermfg=45 ctermbg=NONE guifg=#00d7ff guibg=NONE
 
-" TODO: Investigate why bold is not bold (but Italic).
 hi markdownItalic cterm=italic gui=italic
 hi markdownBold cterm=bold gui=bold
-hi markdownBoldItalic cterm=bold gui=bold
+hi markdownBoldItalic cterm=bold,italic gui=bold,italic
