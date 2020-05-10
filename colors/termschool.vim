@@ -51,9 +51,9 @@ hi Comment ctermfg=247 ctermbg=NONE cterm=NONE guifg=#9a9a9a guibg=NONE gui=ital
 hi Conditional ctermfg=180 ctermbg=NONE cterm=NONE guifg=#dda790 guibg=NONE gui=NONE
 hi Constant ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3c98d9 guibg=NONE gui=NONE
 hi Define ctermfg=180 ctermbg=NONE cterm=NONE guifg=#dda790 guibg=NONE gui=NONE
-hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#f0f0f0 guibg=#43820d gui=bold
-hi DiffDelete ctermfg=88 ctermbg=52 cterm=NONE guifg=#880708 guibg=#5f0000 gui=NONE
-hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#f0f0f0 guibg=#1c3657 gui=NONE
+hi DiffAdd ctermfg=231 ctermbg=64 cterm=NONE guifg=#f0f0f0 guibg=#5f8700 gui=NONE
+hi DiffDelete ctermfg=88 ctermbg=167 cterm=NONE guifg=#870000 guibg=#d75f5f gui=NONE
+hi DiffChange ctermfg=231 ctermbg=68 cterm=NONE guifg=#f0f0f0 guibg=#5f87d7 gui=NONE
 hi DiffText ctermfg=231 ctermbg=61 cterm=bold guifg=#f0f0f0 guibg=#5f5faf gui=bold
 hi ErrorMsg ctermfg=131 ctermbg=233 cterm=reverse guifg=#af5f5f guibg=#121212 gui=reverse
 hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
@@ -131,6 +131,11 @@ hi TabLine ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi SignColumn ctermfg=0 ctermbg=240 guifg=#000000 guibg=#585858
 hi FoldColumn ctermfg=102 ctermbg=NONE cterm=NONE guifg=#84898c guibg=#2a343a gui=NONE
 hi WildMenu ctermfg=NONE ctermbg=23 cterm=bold guifg=NONE guibg=#005f5f gui=bold
+
+" Git
+hi diffAdded    ctermfg=113 ctermbg=NONE cterm=NONE guifg=#87d75f guibg=NONE gui=NONE
+hi diffRemoved  ctermfg=167 ctermbg=NONE cterm=NONE guifg=#d75f5f guibg=NONE gui=NONE
+hi diffChanged  ctermfg=68  ctermbg=NONE cterm=NONE guifg=#5f87d7 guibg=NONE gui=NONE
 
 " C highlighting
 hi! link cConditional   Conditional
