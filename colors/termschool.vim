@@ -44,8 +44,7 @@ hi IncSearch ctermfg=15 ctermbg=107 cterm=NONE guifg=#f0f0f0 guibg=#8bb664 gui=N
 hi Search ctermfg=3 ctermbg=239 cterm=NONE guifg=#000000 guibg=#00d75f gui=NONE
 hi Directory ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3c98d9 guibg=NONE gui=NONE
 hi Folded ctermfg=247 ctermbg=16 cterm=NONE guifg=#9a9a9a guibg=#182227 gui=NONE
-
-hi Normal ctermfg=188 ctermbg=234 cterm=NONE guifg=#c5c8c6 guibg=#252c31 gui=NONE
+hi Normal ctermfg=231 ctermbg=234 cterm=NONE guifg=#f0f0f0 guibg=#252c31 gui=NONE
 hi Boolean ctermfg=68 ctermbg=NONE cterm=bold guifg=#3c98d9 guibg=NONE gui=bold
 hi Character ctermfg=68 ctermbg=NONE cterm=NONE guifg=#3c98d9 guibg=NONE gui=NONE
 hi Comment ctermfg=247 ctermbg=NONE cterm=NONE guifg=#9a9a9a guibg=NONE gui=italic
